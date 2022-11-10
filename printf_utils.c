@@ -23,7 +23,7 @@ int	ft_putstr(char *str)
 			len++;
 		write(1, str, len * sizeof(char));
 	}
-	else 
+	else
 		len += ft_putstr("(null)");
 	return (len);
 }
